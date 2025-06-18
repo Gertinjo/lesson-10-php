@@ -48,9 +48,11 @@ $data = $prep->fetch();
 
 <input type="hidden" name="id" value="<?php echo $data['id']?>"><br>
 
-<input type="hidden" name="name" value="<?php echo $data['name']?>"><br>
+<input type="text" name="name" value="<?php echo $data['name']?>"><br>
 
-<input type="hidden" name="surname" value="<?php echo $data['surname']?>"><br>
+<input type="text" name="surname" value="<?php echo $data['surname']?>"><br>
+<input type="text" name="email" value="<?php echo $data['email']?>"><br>
+
 
 <br><br>
 
